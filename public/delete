@@ -1,0 +1,10 @@
+const newTodo=todo.filter(
+  (id,index)=>{
+    if(index !==id){
+      return true;
+    }else{
+      return false;
+    }
+  }
+)
+setTodo(newTodo);
